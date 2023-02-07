@@ -56,7 +56,7 @@ int main()
 		// This is parent process - waith for children to terminate
 		else {
 			waitpid(pid1, NULL, 0);
-			watipid(pid2, NULL, 0);
+			waitpid(pid2, NULL, 0);
 		}
 	}
 	
